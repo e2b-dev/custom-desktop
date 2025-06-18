@@ -85,5 +85,6 @@ COPY api /api
 RUN pip install hatchling && \
     pip install -e /api
 
-RUN chmod +x /api/start_command.sh
-ENTRYPOINT ["/api/start_command.sh"]
+COPY start_command.sh /start_command.sh
+RUN chmod +x /start_command.sh
+ENTRYPOINT ["/start_command.sh"]
