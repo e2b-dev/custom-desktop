@@ -2,6 +2,7 @@
 
 > [!NOTE]
 > This is a customized version of the E2B Desktop template.
+> 
 > The original template can be found [here](https://github.com/e2b-dev/desktop/tree/main/template)
 
 E2B Desktop Sandbox is an open source secure virtual desktop ready for Computer Use. Powered by [E2B](https://e2b.dev).
